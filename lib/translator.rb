@@ -39,7 +39,7 @@ def get_japanese_emoticon(file, emoji)
       emoticon_lib[key][:english] == emoji
     #binding.pry 
       end
-        emoji ? emoji = emoticon_lib[key][:japanese][1] : "Sorry, that emoticon was not found"
+        emoji ? emoji = emoticon_lib[:japanese][1] : "Sorry, that emoticon was not found"
       end 
 
      
